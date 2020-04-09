@@ -1,0 +1,11 @@
+<div class="col s12 m6">
+  <div class="card hoverable medium">
+    <div class="card-content black-text">
+      <%= offer.premium_badge %>
+      <span class="card-title valign-wrapper center-align"><%= offer.advertiser_name %></span>
+    </div>
+    <div class="card-action center-align">
+      <%= link_to 'Shop now', offer.url, class: "waves-effect waves-light btn btn-large #{offer.premium_link}" %>
+    </div>
+  </div>
+</div>
