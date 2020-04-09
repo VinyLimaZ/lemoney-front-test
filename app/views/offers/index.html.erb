@@ -1,0 +1,11 @@
+<div class="container section">
+  <h3 class="header">See all offers!</h1>
+  <div class="row">
+    <div class="col s12">
+      <% @offers.each do |offer| %>
+        <% offer_decorated = OfferDecorator.new(offer) %>
+        <%= render partial: 'offer', locals: { offer: offer_decorated } %>
+      <% end %>
+    </div>
+  </div>
+</div>
