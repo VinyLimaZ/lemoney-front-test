@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I'll not prolongue to much here, I already said too much on the other README lol
 
-Things you may want to cover:
-
+## Versions
 * Ruby version
+2.6.5
+* Rails version
+6.0.2
+* Postgres
+12.2
 
-* System dependencies
+# How to?
 
-* Configuration
+- First `bundle install`
+- Second `rails db:create db:migrata db:setup`
+- Third `yarn install --check-files`
+- Fourth `rails s`
 
-* Database creation
+## For lazy people like all oldscholl programmers and I, even I being a noob
 
-* Database initialization
+[CLICK HERE TO GO TO ~~narnia~~ Heroku!](https://lemoney-test-front.herokuapp.com/offers)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
